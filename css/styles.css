@@ -1,0 +1,110 @@
+body{
+background-color: cadetblue;
+color:rgb(2, 55, 65);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin:0;
+padding:0;
+}
+a {
+    text-decoration: none;
+}
+header a, header a:visited{
+    color: rgb(16, 39, 65);
+}
+h1{
+ text-transform: uppercase;  
+cursor: pointer;
+}
+header{
+    background-color: rgb(120, 206, 192);
+    color: rgb(16, 39, 65);
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+nav{
+    width:fit-content;
+    text-transform: uppercase;
+}
+nav a{
+font-weight: bold;
+font-size: large;
+
+color:black;
+}
+nav a:hover{
+    font-size:x-large;
+    color:black;
+}
+nav a:visited{
+    font-size: larger;
+    color:black;
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(117, 191, 166);
+    bottom:0;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 100%;
+}
+h2{
+    margin-left: 20px;
+}
+form{
+    width: fit-content;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+input {
+    background-color: transparent;
+    width: 450px;
+    border:none;
+    height: 40px;
+    color: white;
+    border-bottom: 1px solid white;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+input:active{
+    outline: none;
+    border: none;
+    border-bottom: 4px solid white;
+}
+input::placeholder, textarea::placeholder{
+    color: #000;
+}
+textarea {
+    background-color: transparent;
+    width: 450px;
+    height: 160px;
+    color: white;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.send{
+  width: fit-content;
+  padding: 5px 10px 10px 10px;
+  margin: 20px auto;
+}
+.container{
+    width: fit-content;
+    padding: 20px;
+    margin: 20px auto;
+    margin-bottom: 200px;
+}
